@@ -1,0 +1,56 @@
+---
+title: "Réalisation 1 · Trace du portfolio individuel"
+subtitle: "Origine : portfolio GitHub individuel du cours STT-6230"
+---
+
+::: {.callout-note appearance="simple"}
+## Trace reprise
+**Portfolio `portfolio-stt6230-…`, dossier `semaines/Semaine-XX/`** <!-- À COMPLÉTER : numéro et titre exacts -->
+
+Le portfolio est un dépôt **privé**. Cette page en présente donc une **version publique
+résumée**, sans republier le fichier original.
+:::
+
+## Contexte
+
+Dans le cours STT-6230, chaque étudiant tient un portfolio GitHub individuel pendant toute
+la session. Chaque semaine, il y ajoute une trace concrète (lecture, exercice ou activité),
+un fichier produit personnellement, une courte explication et une vérification.
+Le portfolio documente ainsi la progression semaine après semaine.
+
+La trace retenue ici vient de la semaine **[XX]**, consacrée à **[thème de la semaine]**.
+<!-- À COMPLÉTER. Suggestion : la figure produite et interprétée sans IA après le défi 1
+(module « Introduction aux graphiques en R »), ou le travail sur les jointures et les
+valeurs manquantes. -->
+
+## Ce qui a été produit
+
+- un script R : `semaines/Semaine-XX/[nom-du-script].R` <!-- À COMPLÉTER -->
+- un README qui explique la démarche, comment relancer le script et ce que j'ai retenu
+- [une figure, un tableau ou un court rapport Quarto] <!-- À COMPLÉTER -->
+
+## Outils et méthodes
+
+- **R** dans un projet RStudio, avec des **chemins relatifs**
+- **`dplyr`** pour [sélectionner, filtrer, regrouper, joindre…] <!-- À COMPLÉTER -->
+- **`ggplot2`** pour [type de figure] <!-- À COMPLÉTER -->
+- **Git et GitHub** : commits avec des messages qui décrivent la progression
+
+## Ce qui a été vérifié
+
+<!-- À COMPLÉTER : décrire 2 ou 3 vérifications réellement faites, par exemple : -->
+
+- [nombre de lignes avant et après le nettoyage, absence de doublons]
+- [traitement explicite des valeurs manquantes]
+- [le script se relance du début à la fin dans une session R vide]
+
+## Ce que la réalisation démontre
+
+Cette trace montre que je sais organiser un petit projet R **propre et reproductible** :
+le code se relance, les choix sont expliqués dans un README et l'historique Git permet
+de suivre le travail.
+
+## Limites et pistes d'amélioration
+
+- [limite réelle, p. ex. : le script n'est pas encore découpé en fonctions réutilisables] <!-- À COMPLÉTER -->
+- [piste, p. ex. : ajouter des vérifications automatiques avec `stopifnot()`]

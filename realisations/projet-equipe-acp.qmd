@@ -1,0 +1,56 @@
+---
+title: "Réalisation 2 · Tutoriel sur l'ACP en R"
+subtitle: "Origine : projet d'équipe du cours STT-6230"
+---
+
+## Contexte
+
+Le projet d'équipe est la plus grosse évaluation du cours STT-6230 (30 %). Chaque équipe
+produit, dans un dépôt GitHub partagé, un livrable reproductible dans un format approuvé :
+rapport, tableau de bord, application, tutoriel ou outil R. Notre équipe a choisi un
+**tutoriel sur l'analyse en composantes principales (ACP) en R**, qui guide un débutant
+étape par étape.
+
+## Ce qui a été produit
+
+- le **tutoriel sur l'ACP** : préparation des données, calcul de l'ACP, choix du nombre
+  d'axes et interprétation des résultats à l'aide de graphiques;
+- le **dépôt d'équipe** : README, script de préparation des données, documentation,
+  issues et suivi des contributions;
+- une **présentation** et une **revue de code** lors de la défense en semaine 14.
+
+<!-- À COMPLÉTER : format exact du tutoriel, jeu de données utilisé et lien public
+si l'équipe l'autorise. -->
+
+**Ma contribution** : [parties rédigées, code écrit, revue des contributions des autres] <!-- À COMPLÉTER -->
+
+## Outils et méthodes
+
+R, Quarto, Git et GitHub (branches, issues, pull requests), et l'ACP comme méthode statistique.
+
+## Ce qui a été vérifié
+
+- le code du tutoriel se relance du début à la fin sans erreur;
+- les résultats et les interprétations ont été relus par l'équipe;
+- [autre vérification réellement faite] <!-- À COMPLÉTER -->
+
+## Justification technique (STT-6230)
+
+<!-- À VÉRIFIER : adapter ces choix à ceux réellement faits par l'équipe. -->
+
+- **Standardiser les variables** : elles n'ont pas la même unité. Sans standardisation,
+  les variables aux plus grandes valeurs domineraient l'analyse.
+- **Calcul avec `prcomp()`** : cette fonction est incluse dans R, donc le tutoriel ne
+  demande aucun package de plus pour le calcul. Elle est aussi recommandée pour sa
+  précision numérique.
+- **Validation** : les résultats ont été recalculés d'une seconde façon, à partir de la
+  matrice de corrélation (`eigen()`), pour confirmer qu'ils sont identiques.
+
+## Ce que la réalisation démontre
+
+Je sais appliquer une méthode statistique, l'expliquer simplement à un public débutant et
+travailler à plusieurs sur un même dépôt de code.
+
+## Limites et pistes d'amélioration
+
+[Une limite réelle du tutoriel, p. ex. un seul jeu de données d'exemple] <!-- À COMPLÉTER -->

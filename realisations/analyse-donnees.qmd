@@ -1,0 +1,59 @@
+---
+title: "Autres projets en analyse de données"
+subtitle: "Autres projets · stage, cours et projets d'équipe"
+---
+
+## Investissement et croissance au Maroc (stage au HCP, 2025)
+
+**Contexte** : stage de fin d'année de l'INSEA, réalisé en binôme au Haut-Commissariat au Plan.
+
+**Ce qui a été fait** : une comparaison de l'investissement du Maroc avec celui d'autres
+pays, puis un modèle économétrique (ARDL) qui mesure l'effet de l'investissement sur
+la croissance, à court et à long terme.
+
+**Ce qui a été remis** : un rapport de stage soutenu devant un jury de l'INSEA.
+
+**Outils** : EViews, Excel.
+
+## Planification des expériences (STT-4100/7230)
+
+**Contexte** : cours sur la planification et l'analyse d'expériences.
+
+**Objectif** : construire un plan qui permet de mesurer l'effet de plusieurs facteurs
+avec le moins d'essais possible, puis analyser les résultats.
+
+**Démarche** : [type de plan utilisé (factoriel, en blocs, etc.), analyse de la variance,
+vérification des hypothèses du modèle] <!-- À COMPLÉTER -->
+
+**Ce qui a été remis** : [rapport ou devoir] <!-- À COMPLÉTER -->
+
+## Méthodes d'analyse de données
+
+<!-- À COMPLÉTER : décrire le projet visé (cours, jeu de données, méthodes :
+ACP, analyse des correspondances, classification k-moyennes ou hiérarchique, etc.). -->
+
+**Contexte** : [cours ou cadre du projet]
+
+**Objectif** : [question à laquelle l'analyse répond]
+
+**Démarche** : [méthodes appliquées et justification]
+
+**Ce qui a été remis** : [rapport, code, présentation]
+
+## Détection de dégradations routières (projet d'équipe en apprentissage automatique)
+
+**Contexte** : projet d'équipe en apprentissage automatique sur la **détection d'objets**
+dans des images de routes, avec le jeu de données public **RDD2022**
+(*Road Damage Dataset*).
+
+**Objectif** : repérer et classer automatiquement les dégradations de la chaussée
+(fissures, nids-de-poule, etc.) dans des photos.
+
+**Démarche** :
+
+1. Exploration du jeu de données : classes de dégradations, répartition des annotations.
+2. Préparation des images et des annotations pour l'entraînement.
+3. Entraînement d'un modèle de détection d'objets. <!-- À COMPLÉTER : modèle utilisé (YOLO, Faster R-CNN…) -->
+4. Évaluation du modèle. <!-- À COMPLÉTER : métriques (mAP, précision, rappel) et résultats -->
+
+**Ce qui a été remis** : [rapport, présentation, code] <!-- À COMPLÉTER -->

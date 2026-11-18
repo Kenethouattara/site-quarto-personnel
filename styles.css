@@ -1,0 +1,27 @@
+/* Couleur d'accent inspirée du rouge de l'Université Laval */
+:root {
+  --accent: #b5121b;
+}
+
+h2 {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+.card-realisation {
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-left: 4px solid var(--accent);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  height: 100%;
+}
+
+.card-realisation h4 {
+  margin-top: 0;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}

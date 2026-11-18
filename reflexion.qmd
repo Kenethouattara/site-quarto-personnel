@@ -1,0 +1,47 @@
+---
+title: "Réflexion et choix techniques"
+---
+
+## Ce que j'ai appris
+
+<!-- À COMPLÉTER avec tes propres mots (3 à 5 lignes). Pistes : -->
+
+- **Reproductibilité** : un projet R propre (structure, chemins relatifs, README) se relance
+  sans effort, par moi ou par quelqu'un d'autre.
+- **Git au quotidien** : des commits fréquents et bien nommés racontent la progression
+  d'un travail.
+- **Travailler en équipe sur du code** : issues, revues et contributions visibles, comme dans
+  le [projet sur l'ACP](realisations/projet-equipe-acp.qmd).
+- [Apprentissage personnel à ajouter]
+
+## Choix techniques du site
+
+### Publication : pourquoi le dossier `docs/` ?
+
+Il existe trois façons courantes de publier un site Quarto sur GitHub Pages :
+
+| Approche | Principe | Avantages | Inconvénients |
+|---|---|---|---|
+| **Dossier `docs/` sur `main`** (retenue) | On fait le rendu localement, puis on pousse le HTML dans `docs/` | Simple, aucun outil supplémentaire, ce qui est publié correspond exactement à ce qu'on a vérifié | Le HTML généré est versionné avec les sources |
+| Branche `gh-pages` (`quarto publish`) | Quarto pousse le rendu dans une branche séparée | Sources et HTML séparés | Une commande et une branche de plus à comprendre |
+| GitHub Actions | Le rendu se fait sur un serveur de GitHub à chaque push | Publication automatique | R et les packages doivent être installés sur le serveur, configuration plus longue |
+
+J'ai retenu le dossier `docs/`, comme le prévoit le gabarit du cours. Pour un petit site
+mis à jour à la main, c'est l'option la plus simple à vérifier et à maintenir.
+
+### Autres choix
+
+- **Fichier `.nojekyll`** : il empêche GitHub Pages de traiter le site avec Jekyll, qui
+  ignorerait certains dossiers produits par Quarto.
+- **Chemins relatifs** entre les pages, pour que les liens fonctionnent sur l'ordinateur
+  comme en ligne.
+
+## Confidentialité
+
+Le site est public. J'ai donc choisi de ne pas publier :
+
+- d'adresse personnelle ni de numéro de téléphone : le CV publié est une version synthétique;
+- le contenu brut de mon portfolio, qui reste un dépôt privé : la réalisation 1 en
+  présente une version résumée;
+- de données dont la redistribution n'est pas autorisée, comme les données internes
+  utilisées pendant mon stage.

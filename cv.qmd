@@ -1,0 +1,33 @@
+---
+title: "CV"
+subtitle: "Statistique · économie appliquée · analyse de données"
+toc: false
+---
+
+**Profil** : étudiant à la maîtrise en statistique, formé en statistique et en économie
+appliquée. Intérêt pour l'analyse de données, la statistique officielle et l'analyse économique.
+
+## Formation
+
+| Années | Diplôme | Établissement |
+|---|---|---|
+| 2025 – 2027 | Maîtrise en statistique (en cours) | Université Laval, Québec |
+| 2023 – 2025 | Cycle ingénieur en statistique et économie appliquée | INSEA, Rabat, Maroc |
+| 2021 – 2023 | Licence en mathématiques appliquées (DEUG obtenu) | [Établissement, pays] <!-- À COMPLÉTER --> |
+
+## Expérience
+
+**Stage de fin d'année · Haut-Commissariat au Plan, Maroc** (2025)\
+Impact de l'investissement sur la croissance économique du Maroc : comparaison
+internationale et modèle économétrique ARDL (EViews, Excel).
+
+**Stage d'observation · Institut National de la Statistique et de la Démographie, Burkina Faso** (année à compléter)\
+Revue de littérature sur la statistique officielle et sur les méthodes d'analyse de la pauvreté.
+
+## Compétences
+
+- **Statistique** : inférence, ACP, plans d'expériences, séries temporelles (ARDL)
+- **Programmation** : R (`dplyr`, `ggplot2`, Quarto), Python ([librairies]) <!-- À COMPLÉTER -->
+- **Outils** : Power BI, Excel, EViews, Git et GitHub
+
+**Langues** : français, anglais ([niveau]) <!-- À COMPLÉTER -->

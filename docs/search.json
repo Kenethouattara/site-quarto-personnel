@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "reflexion.html",
+    "href": "reflexion.html",
+    "title": "Réflexion et choix techniques",
+    "section": "",
+    "text": "Reproductibilité : un projet R propre (structure, chemins relatifs, README) se relance sans effort, par moi ou par quelqu’un d’autre.\nGit au quotidien : des commits fréquents et bien nommés racontent la progression d’un travail.\nTravailler en équipe sur du code : issues, revues et contributions visibles, comme dans le projet sur l’ACP.\n[Apprentissage personnel à ajouter]"
+  },
+  {
+    "objectID": "reflexion.html#ce-que-jai-appris",
+    "href": "reflexion.html#ce-que-jai-appris",
+    "title": "Réflexion et choix techniques",
+    "section": "",
+    "text": "Reproductibilité : un projet R propre (structure, chemins relatifs, README) se relance sans effort, par moi ou par quelqu’un d’autre.\nGit au quotidien : des commits fréquents et bien nommés racontent la progression d’un travail.\nTravailler en équipe sur du code : issues, revues et contributions visibles, comme dans le projet sur l’ACP.\n[Apprentissage personnel à ajouter]"
+  },
+  {
+    "objectID": "reflexion.html#choix-techniques-du-site",
+    "href": "reflexion.html#choix-techniques-du-site",
+    "title": "Réflexion et choix techniques",
+    "section": "Choix techniques du site",
+    "text": "Choix techniques du site\n\nPublication : pourquoi le dossier docs/ ?\nIl existe trois façons courantes de publier un site Quarto sur GitHub Pages :\n\n\n\n\n\n\n\n\n\nApproche\nPrincipe\nAvantages\nInconvénients\n\n\n\n\nDossier docs/ sur main (retenue)\nOn fait le rendu localement, puis on pousse le HTML dans docs/\nSimple, aucun outil supplémentaire, ce qui est publié correspond exactement à ce qu’on a vérifié\nLe HTML généré est versionné avec les sources\n\n\nBranche gh-pages (quarto publish)\nQuarto pousse le rendu dans une branche séparée\nSources et HTML séparés\nUne commande et une branche de plus à comprendre\n\n\nGitHub Actions\nLe rendu se fait sur un serveur de GitHub à chaque push\nPublication automatique\nR et les packages doivent être installés sur le serveur, configuration plus longue\n\n\n\nJ’ai retenu le dossier docs/, comme le prévoit le gabarit du cours. Pour un petit site mis à jour à la main, c’est l’option la plus simple à vérifier et à maintenir.\n\n\nAutres choix\n\nFichier .nojekyll : il empêche GitHub Pages de traiter le site avec Jekyll, qui ignorerait certains dossiers produits par Quarto.\nChemins relatifs entre les pages, pour que les liens fonctionnent sur l’ordinateur comme en ligne."
+  },
+  {
+    "objectID": "reflexion.html#confidentialité",
+    "href": "reflexion.html#confidentialité",
+    "title": "Réflexion et choix techniques",
+    "section": "Confidentialité",
+    "text": "Confidentialité\nLe site est public. J’ai donc choisi de ne pas publier :\n\nd’adresse personnelle ni de numéro de téléphone : le CV publié est une version synthétique;\nle contenu brut de mon portfolio, qui reste un dépôt privé : la réalisation 1 en présente une version résumée;\nde données dont la redistribution n’est pas autorisée, comme les données internes utilisées pendant mon stage."
+  },
+  {
+    "objectID": "realisations.html",
+    "href": "realisations.html",
+    "title": "Réalisations",
+    "section": "",
+    "text": "Chaque réalisation commentée suit la même structure : contexte, ce qui a été produit, outils et méthodes, vérifications, ce que la réalisation démontre, puis limites et pistes d’amélioration."
+  },
+  {
+    "objectID": "realisations.html#réalisations-commentées",
+    "href": "realisations.html#réalisations-commentées",
+    "title": "Réalisations",
+    "section": "Réalisations commentées",
+    "text": "Réalisations commentées\n\n\n\n1 · Trace du portfolio individuel\nOrigine : portfolio GitHub individuel (STT-6230)\nVersion publique résumée d’une trace du portfolio, qui reste un dépôt privé.\nLire la fiche →\n\n\n\n\n2 · Tutoriel sur l’ACP en R\nOrigine : projet d’équipe (STT-6230)\nUn tutoriel conçu en équipe pour apprendre à faire et à interpréter une analyse en composantes principales avec R.\nLire la fiche →"
+  },
+  {
+    "objectID": "realisations.html#autres-projets",
+    "href": "realisations.html#autres-projets",
+    "title": "Réalisations",
+    "section": "Autres projets",
+    "text": "Autres projets\n\n\n\nTraitement automatique de la langue\nTravaux 1 et 2\nLire la fiche →\n\n\n\n\nAnalyse de données\nStage au HCP (modèle ARDL), plans d’expériences, détection d’objets (RDD2022)\nLire la fiche →"
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html",
+    "href": "realisations/projet-equipe-acp.html",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "",
+    "text": "Le projet d’équipe est la plus grosse évaluation du cours STT-6230 (30 %). Chaque équipe produit, dans un dépôt GitHub partagé, un livrable reproductible dans un format approuvé : rapport, tableau de bord, application, tutoriel ou outil R. Notre équipe a choisi un tutoriel sur l’analyse en composantes principales (ACP) en R, qui guide un débutant étape par étape."
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#contexte",
+    "href": "realisations/projet-equipe-acp.html#contexte",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "",
+    "text": "Le projet d’équipe est la plus grosse évaluation du cours STT-6230 (30 %). Chaque équipe produit, dans un dépôt GitHub partagé, un livrable reproductible dans un format approuvé : rapport, tableau de bord, application, tutoriel ou outil R. Notre équipe a choisi un tutoriel sur l’analyse en composantes principales (ACP) en R, qui guide un débutant étape par étape."
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#ce-qui-a-été-produit",
+    "href": "realisations/projet-equipe-acp.html#ce-qui-a-été-produit",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Ce qui a été produit",
+    "text": "Ce qui a été produit\n\nle tutoriel sur l’ACP : préparation des données, calcul de l’ACP, choix du nombre d’axes et interprétation des résultats à l’aide de graphiques;\nle dépôt d’équipe : README, script de préparation des données, documentation, issues et suivi des contributions;\nune présentation et une revue de code lors de la défense en semaine 14.\n\n\nMa contribution : [parties rédigées, code écrit, revue des contributions des autres]"
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#outils-et-méthodes",
+    "href": "realisations/projet-equipe-acp.html#outils-et-méthodes",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Outils et méthodes",
+    "text": "Outils et méthodes\nR, Quarto, Git et GitHub (branches, issues, pull requests), et l’ACP comme méthode statistique."
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#ce-qui-a-été-vérifié",
+    "href": "realisations/projet-equipe-acp.html#ce-qui-a-été-vérifié",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Ce qui a été vérifié",
+    "text": "Ce qui a été vérifié\n\nle code du tutoriel se relance du début à la fin sans erreur;\nles résultats et les interprétations ont été relus par l’équipe;\n[autre vérification réellement faite]"
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#justification-technique-stt-6230",
+    "href": "realisations/projet-equipe-acp.html#justification-technique-stt-6230",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Justification technique (STT-6230)",
+    "text": "Justification technique (STT-6230)\n\n\nStandardiser les variables : elles n’ont pas la même unité. Sans standardisation, les variables aux plus grandes valeurs domineraient l’analyse.\nCalcul avec prcomp() : cette fonction est incluse dans R, donc le tutoriel ne demande aucun package de plus pour le calcul. Elle est aussi recommandée pour sa précision numérique.\nValidation : les résultats ont été recalculés d’une seconde façon, à partir de la matrice de corrélation (eigen()), pour confirmer qu’ils sont identiques."
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#ce-que-la-réalisation-démontre",
+    "href": "realisations/projet-equipe-acp.html#ce-que-la-réalisation-démontre",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Ce que la réalisation démontre",
+    "text": "Ce que la réalisation démontre\nJe sais appliquer une méthode statistique, l’expliquer simplement à un public débutant et travailler à plusieurs sur un même dépôt de code."
+  },
+  {
+    "objectID": "realisations/projet-equipe-acp.html#limites-et-pistes-damélioration",
+    "href": "realisations/projet-equipe-acp.html#limites-et-pistes-damélioration",
+    "title": "Réalisation 2 · Tutoriel sur l’ACP en R",
+    "section": "Limites et pistes d’amélioration",
+    "text": "Limites et pistes d’amélioration\n[Une limite réelle du tutoriel, p. ex. un seul jeu de données d’exemple]"
+  },
+  {
+    "objectID": "realisations/analyse-donnees.html",
+    "href": "realisations/analyse-donnees.html",
+    "title": "Autres projets en analyse de données",
+    "section": "",
+    "text": "Contexte : stage de fin d’année de l’INSEA, réalisé en binôme au Haut-Commissariat au Plan.\nCe qui a été fait : une comparaison de l’investissement du Maroc avec celui d’autres pays, puis un modèle économétrique (ARDL) qui mesure l’effet de l’investissement sur la croissance, à court et à long terme.\nCe qui a été remis : un rapport de stage soutenu devant un jury de l’INSEA.\nOutils : EViews, Excel."
+  },
+  {
+    "objectID": "realisations/analyse-donnees.html#investissement-et-croissance-au-maroc-stage-au-hcp-2025",
+    "href": "realisations/analyse-donnees.html#investissement-et-croissance-au-maroc-stage-au-hcp-2025",
+    "title": "Autres projets en analyse de données",
+    "section": "",
+    "text": "Contexte : stage de fin d’année de l’INSEA, réalisé en binôme au Haut-Commissariat au Plan.\nCe qui a été fait : une comparaison de l’investissement du Maroc avec celui d’autres pays, puis un modèle économétrique (ARDL) qui mesure l’effet de l’investissement sur la croissance, à court et à long terme.\nCe qui a été remis : un rapport de stage soutenu devant un jury de l’INSEA.\nOutils : EViews, Excel."
+  },
+  {
+    "objectID": "realisations/analyse-donnees.html#planification-des-expériences-stt-41007230",
+    "href": "realisations/analyse-donnees.html#planification-des-expériences-stt-41007230",
+    "title": "Autres projets en analyse de données",
+    "section": "Planification des expériences (STT-4100/7230)",
+    "text": "Planification des expériences (STT-4100/7230)\nContexte : cours sur la planification et l’analyse d’expériences.\nObjectif : construire un plan qui permet de mesurer l’effet de plusieurs facteurs avec le moins d’essais possible, puis analyser les résultats.\nDémarche : [type de plan utilisé (factoriel, en blocs, etc.), analyse de la variance, vérification des hypothèses du modèle] \nCe qui a été remis : [rapport ou devoir]"
+  },
+  {
+    "objectID": "realisations/analyse-donnees.html#méthodes-danalyse-de-données",
+    "href": "realisations/analyse-donnees.html#méthodes-danalyse-de-données",
+    "title": "Autres projets en analyse de données",
+    "section": "Méthodes d’analyse de données",
+    "text": "Méthodes d’analyse de données\n\nContexte : [cours ou cadre du projet]\nObjectif : [question à laquelle l’analyse répond]\nDémarche : [méthodes appliquées et justification]\nCe qui a été remis : [rapport, code, présentation]"
+  },
+  {
+    "objectID": "realisations/analyse-donnees.html#détection-de-dégradations-routières-projet-déquipe-en-apprentissage-automatique",
+    "href": "realisations/analyse-donnees.html#détection-de-dégradations-routières-projet-déquipe-en-apprentissage-automatique",
+    "title": "Autres projets en analyse de données",
+    "section": "Détection de dégradations routières (projet d’équipe en apprentissage automatique)",
+    "text": "Détection de dégradations routières (projet d’équipe en apprentissage automatique)\nContexte : projet d’équipe en apprentissage automatique sur la détection d’objets dans des images de routes, avec le jeu de données public RDD2022 (Road Damage Dataset).\nObjectif : repérer et classer automatiquement les dégradations de la chaussée (fissures, nids-de-poule, etc.) dans des photos.\nDémarche :\n\nExploration du jeu de données : classes de dégradations, répartition des annotations.\nPréparation des images et des annotations pour l’entraînement.\nEntraînement d’un modèle de détection d’objets. \nÉvaluation du modèle. \n\nCe qui a été remis : [rapport, présentation, code]"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Profil : étudiant à la maîtrise en statistique, formé en statistique et en économie appliquée. Intérêt pour l’analyse de données, la statistique officielle et l’analyse économique."
+  },
+  {
+    "objectID": "cv.html#formation",
+    "href": "cv.html#formation",
+    "title": "CV",
+    "section": "Formation",
+    "text": "Formation\n\n\n\n\n\n\n\n\nAnnées\nDiplôme\nÉtablissement\n\n\n\n\n2025 – 2027\nMaîtrise en statistique (en cours)\nUniversité Laval, Québec\n\n\n2023 – 2025\nCycle ingénieur en statistique et économie appliquée\nINSEA, Rabat, Maroc\n\n\n2021 – 2023\nLicence en mathématiques appliquées (DEUG obtenu)\n[Établissement, pays]"
+  },
+  {
+    "objectID": "cv.html#expérience",
+    "href": "cv.html#expérience",
+    "title": "CV",
+    "section": "Expérience",
+    "text": "Expérience\nStage de fin d’année · Haut-Commissariat au Plan, Maroc (2025)\nImpact de l’investissement sur la croissance économique du Maroc : comparaison internationale et modèle économétrique ARDL (EViews, Excel).\nStage d’observation · Institut National de la Statistique et de la Démographie, Burkina Faso (année à compléter)\nRevue de littérature sur la statistique officielle et sur les méthodes d’analyse de la pauvreté."
+  },
+  {
+    "objectID": "cv.html#compétences",
+    "href": "cv.html#compétences",
+    "title": "CV",
+    "section": "Compétences",
+    "text": "Compétences\n\nStatistique : inférence, ACP, plans d’expériences, séries temporelles (ARDL)\nProgrammation : R (dplyr, ggplot2, Quarto), Python ([librairies]) \nOutils : Power BI, Excel, EViews, Git et GitHub\n\nLangues : français, anglais ([niveau])"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fahd Keneth Ouattara",
+    "section": "",
+    "text": "Je suis étudiant à la maîtrise en statistique à l’Université Laval, après un cycle d’ingénieur en statistique et économie appliquée à l’INSEA (Rabat, Maroc). Je m’intéresse à l’analyse de données et à la statistique appliquée, et surtout aux analyses reproductibles : un code lisible, des rapports qui se régénèrent à partir des sources et un historique de travail suivi avec Git.\nCe site présente une sélection de travaux réalisés pendant la session d’automne 2026, principalement dans le cours STT-6230 – R pour scientifique."
+  },
+  {
+    "objectID": "index.html#à-propos",
+    "href": "index.html#à-propos",
+    "title": "Fahd Keneth Ouattara",
+    "section": "",
+    "text": "Je suis étudiant à la maîtrise en statistique à l’Université Laval, après un cycle d’ingénieur en statistique et économie appliquée à l’INSEA (Rabat, Maroc). Je m’intéresse à l’analyse de données et à la statistique appliquée, et surtout aux analyses reproductibles : un code lisible, des rapports qui se régénèrent à partir des sources et un historique de travail suivi avec Git.\nCe site présente une sélection de travaux réalisés pendant la session d’automne 2026, principalement dans le cours STT-6230 – R pour scientifique."
+  },
+  {
+    "objectID": "index.html#en-bref",
+    "href": "index.html#en-bref",
+    "title": "Fahd Keneth Ouattara",
+    "section": "En bref",
+    "text": "En bref\n\n\nStatistique\nRéduction de dimension (ACP), planification d’expériences, analyse exploratoire.\n\n\nProgrammation\nR (tidyverse : dplyr, ggplot2), Quarto, Git et GitHub.\n\n\nApprentissage automatique\nTraitement automatique de la langue, détection d’objets sur images."
+  },
+  {
+    "objectID": "index.html#réalisations-commentées",
+    "href": "index.html#réalisations-commentées",
+    "title": "Fahd Keneth Ouattara",
+    "section": "Réalisations commentées",
+    "text": "Réalisations commentées\n\n\n\n\nRéalisation\nOrigine\n\n\n\n\n1\nTrace du portfolio individuel\nPortfolio GitHub individuel\n\n\n2\nTutoriel sur l’ACP en R\nProjet d’équipe\n\n\n\nVoir toutes les réalisations →"
+  },
+  {
+    "objectID": "index.html#à-propos-de-ce-site",
+    "href": "index.html#à-propos-de-ce-site",
+    "title": "Fahd Keneth Ouattara",
+    "section": "À propos de ce site",
+    "text": "À propos de ce site\nCe site est écrit en Quarto (fichiers .qmd). Il est rendu en HTML dans le dossier docs/ et publié avec GitHub Pages. Les choix techniques sont décrits dans la page Réflexion."
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html",
+    "href": "realisations/portfolio-individuel.html",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "",
+    "text": "Trace reprise\n\n\n\nPortfolio portfolio-stt6230-…, dossier semaines/Semaine-XX/ \nLe portfolio est un dépôt privé. Cette page en présente donc une version publique résumée, sans republier le fichier original."
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#contexte",
+    "href": "realisations/portfolio-individuel.html#contexte",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Contexte",
+    "text": "Contexte\nDans le cours STT-6230, chaque étudiant tient un portfolio GitHub individuel pendant toute la session. Chaque semaine, il y ajoute une trace concrète (lecture, exercice ou activité), un fichier produit personnellement, une courte explication et une vérification. Le portfolio documente ainsi la progression semaine après semaine.\nLa trace retenue ici vient de la semaine [XX], consacrée à [thème de la semaine]."
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#ce-qui-a-été-produit",
+    "href": "realisations/portfolio-individuel.html#ce-qui-a-été-produit",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Ce qui a été produit",
+    "text": "Ce qui a été produit\n\nun script R : semaines/Semaine-XX/[nom-du-script].R \nun README qui explique la démarche, comment relancer le script et ce que j’ai retenu\n[une figure, un tableau ou un court rapport Quarto]"
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#outils-et-méthodes",
+    "href": "realisations/portfolio-individuel.html#outils-et-méthodes",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Outils et méthodes",
+    "text": "Outils et méthodes\n\nR dans un projet RStudio, avec des chemins relatifs\ndplyr pour [sélectionner, filtrer, regrouper, joindre…] \nggplot2 pour [type de figure] \nGit et GitHub : commits avec des messages qui décrivent la progression"
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#ce-qui-a-été-vérifié",
+    "href": "realisations/portfolio-individuel.html#ce-qui-a-été-vérifié",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Ce qui a été vérifié",
+    "text": "Ce qui a été vérifié\n\n\n[nombre de lignes avant et après le nettoyage, absence de doublons]\n[traitement explicite des valeurs manquantes]\n[le script se relance du début à la fin dans une session R vide]"
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#ce-que-la-réalisation-démontre",
+    "href": "realisations/portfolio-individuel.html#ce-que-la-réalisation-démontre",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Ce que la réalisation démontre",
+    "text": "Ce que la réalisation démontre\nCette trace montre que je sais organiser un petit projet R propre et reproductible : le code se relance, les choix sont expliqués dans un README et l’historique Git permet de suivre le travail."
+  },
+  {
+    "objectID": "realisations/portfolio-individuel.html#limites-et-pistes-damélioration",
+    "href": "realisations/portfolio-individuel.html#limites-et-pistes-damélioration",
+    "title": "Réalisation 1 · Trace du portfolio individuel",
+    "section": "Limites et pistes d’amélioration",
+    "text": "Limites et pistes d’amélioration\n\n[limite réelle, p. ex. : le script n’est pas encore découpé en fonctions réutilisables] \n[piste, p. ex. : ajouter des vérifications automatiques avec stopifnot()]"
+  },
+  {
+    "objectID": "realisations/taln-travaux.html",
+    "href": "realisations/taln-travaux.html",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "",
+    "text": "Dans le cours [sigle et titre du cours], j’ai réalisé deux travaux pratiques en traitement automatique de la langue naturelle (TALN). Le TALN regroupe les méthodes qui permettent à un ordinateur d’analyser du texte : nettoyer, découper, représenter numériquement, puis classer ou modéliser."
+  },
+  {
+    "objectID": "realisations/taln-travaux.html#contexte",
+    "href": "realisations/taln-travaux.html#contexte",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "",
+    "text": "Dans le cours [sigle et titre du cours], j’ai réalisé deux travaux pratiques en traitement automatique de la langue naturelle (TALN). Le TALN regroupe les méthodes qui permettent à un ordinateur d’analyser du texte : nettoyer, découper, représenter numériquement, puis classer ou modéliser."
+  },
+  {
+    "objectID": "realisations/taln-travaux.html#travail-1-titre",
+    "href": "realisations/taln-travaux.html#travail-1-titre",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "Travail 1 : [titre]",
+    "text": "Travail 1 : [titre]\nObjectif : [ce que le travail demandait, p. ex. prétraitement et analyse exploratoire d’un corpus]\nDonnées : [corpus utilisé, taille, langue]\nDémarche :\n\n[Prétraitement : tokenisation, minuscules, retrait des mots vides, lemmatisation…]\n[Représentation : sac de mots, TF-IDF, plongements…]\n[Analyse ou modèle appliqué]\n\nCe qui a été remis : [rapport, notebook, code, résultats]\nRésultat principal : [chiffre clé ou conclusion]"
+  },
+  {
+    "objectID": "realisations/taln-travaux.html#travail-2-titre",
+    "href": "realisations/taln-travaux.html#travail-2-titre",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "Travail 2 : [titre]",
+    "text": "Travail 2 : [titre]\nObjectif : [ce que le travail demandait, p. ex. classification de textes]\nDonnées : [corpus utilisé]\nDémarche :\n\n[Étape 1]\n[Étape 2]\n[Évaluation : métriques utilisées, comparaison de modèles]\n\nCe qui a été remis : [rapport, notebook, code, résultats]\nRésultat principal : [chiffre clé ou conclusion]"
+  },
+  {
+    "objectID": "realisations/taln-travaux.html#ce-que-jen-retiens",
+    "href": "realisations/taln-travaux.html#ce-que-jen-retiens",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "Ce que j’en retiens",
+    "text": "Ce que j’en retiens\n[Une ou deux phrases sur ce que ces travaux t’ont appris.]"
+  },
+  {
+    "objectID": "realisations/taln-travaux.html#outils",
+    "href": "realisations/taln-travaux.html#outils",
+    "title": "Travaux 1 et 2 : traitement automatique de la langue naturelle",
+    "section": "Outils",
+    "text": "Outils\n[Langage et bibliothèques utilisés, p. ex. Python (NLTK, spaCy, scikit-learn) ou R (tidytext, quanteda)]"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Références",
+    "section": "",
+    "text": "Nicosia, A. (2026). STT-4230 / STT-6230 – Programmation pour la science des données. Université Laval. Site du cours\n\nConsignes du site Quarto personnel\nÉvaluations"
+  },
+  {
+    "objectID": "references.html#cours",
+    "href": "references.html#cours",
+    "title": "Références",
+    "section": "",
+    "text": "Nicosia, A. (2026). STT-4230 / STT-6230 – Programmation pour la science des données. Université Laval. Site du cours\n\nConsignes du site Quarto personnel\nÉvaluations"
+  },
+  {
+    "objectID": "references.html#quarto-et-github-pages",
+    "href": "references.html#quarto-et-github-pages",
+    "title": "Références",
+    "section": "Quarto et GitHub Pages",
+    "text": "Quarto et GitHub Pages\n\nQuarto. Creating a Website. quarto.org/docs/websites\nQuarto. Publishing to GitHub Pages. quarto.org/docs/publishing/github-pages.html\nGitHub Docs. Creating a GitHub Pages site. docs.github.com"
+  },
+  {
+    "objectID": "references.html#r",
+    "href": "references.html#r",
+    "title": "Références",
+    "section": "R",
+    "text": "R\n\nWickham, H., Çetinkaya-Rundel, M. et Grolemund, G. (2023). R for Data Science (2e éd.). O’Reilly. r4ds.hadley.nz\nWickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer. ggplot2-book.org"
+  },
+  {
+    "objectID": "references.html#analyse-en-composantes-principales",
+    "href": "references.html#analyse-en-composantes-principales",
+    "title": "Références",
+    "section": "Analyse en composantes principales",
+    "text": "Analyse en composantes principales\n\nJolliffe, I. T. et Cadima, J. (2016). Principal component analysis: a review and recent developments. Philosophical Transactions of the Royal Society A, 374(2065).\nHusson, F., Lê, S. et Pagès, J. (2017). Exploratory Multivariate Analysis by Example Using R (2e éd.). CRC Press."
+  }
+]

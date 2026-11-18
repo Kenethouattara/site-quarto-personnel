@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs        # GitHub Pages : branche main, dossier /docs
+
+website:
+  title: "Fahd Keneth Ouattara"
+  description: "Étudiant à la maîtrise en statistique — Université Laval"
+  site-url: "https://Kenethouattara.github.io/site-quarto-personnel/"   
+  repo-url: "https://github.com/Kenethouattara/site-quarto-personnel"  
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: À propos
+      - href: cv.qmd
+        text: CV
+      - text: Réalisations
+        menu:
+          - href: realisations.qmd
+            text: Vue d'ensemble
+          - text: "---"
+          - text: "Réalisations commentées"
+          - href: realisations/portfolio-individuel.qmd
+            text: "1 · Trace du portfolio individuel"
+          - href: realisations/projet-equipe-acp.qmd
+            text: "2 · Projet d'équipe : tutoriel ACP"
+          - text: "---"
+          - text: "Autres projets"
+          - href: realisations/taln-travaux.qmd
+            text: "Traitement automatique de la langue"
+          - href: realisations/analyse-donnees.qmd
+            text: "Analyse de données"
+      - href: reflexion.qmd
+        text: Réflexion
+      - href: references.qmd
+        text: Références
+    right:
+      - icon: github
+        href: "https://github.com/Kenethouattara"                
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Fahd Keneth Ouattara"
+    right: "Site réalisé avec [Quarto](https://quarto.org) · publié avec GitHub Pages"
+
+execute:
+  echo: true
+  warning: false
+  message: false
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-title: "Sur cette page"
+    lang: fr
+    code-fold: show
+    code-copy: true

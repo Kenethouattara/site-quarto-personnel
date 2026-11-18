@@ -1,0 +1,27 @@
+---
+title: "Références"
+---
+
+## Cours
+
+- Nicosia, A. (2026). *STT-4230 / STT-6230 – Programmation pour la science des données*.
+  Université Laval. [Site du cours](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/)
+  - [Consignes du site Quarto personnel](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/site-personnel.html)
+  - [Évaluations](https://aureliennicosiaulaval.github.io/programmation-pour-la-science-des-donnees/evaluations.html)
+
+## Quarto et GitHub Pages
+
+- Quarto. *Creating a Website*. [quarto.org/docs/websites](https://quarto.org/docs/websites/)
+- Quarto. *Publishing to GitHub Pages*. [quarto.org/docs/publishing/github-pages.html](https://quarto.org/docs/publishing/github-pages.html)
+- GitHub Docs. *Creating a GitHub Pages site*. [docs.github.com](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+## R
+
+- Wickham, H., Çetinkaya-Rundel, M. et Grolemund, G. (2023). *R for Data Science* (2e éd.). O'Reilly. [r4ds.hadley.nz](https://r4ds.hadley.nz/)
+- Wickham, H. (2016). *ggplot2: Elegant Graphics for Data Analysis*. Springer. [ggplot2-book.org](https://ggplot2-book.org/)
+
+## Analyse en composantes principales
+
+- Jolliffe, I. T. et Cadima, J. (2016). Principal component analysis: a review and recent developments.
+  *Philosophical Transactions of the Royal Society A*, 374(2065).
+- Husson, F., Lê, S. et Pagès, J. (2017). *Exploratory Multivariate Analysis by Example Using R* (2e éd.). CRC Press.

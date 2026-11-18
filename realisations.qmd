@@ -1,0 +1,62 @@
+---
+title: "Réalisations"
+subtitle: "Une sélection de travaux publiables, présentés dans une forme courte"
+toc: false
+---
+
+Chaque réalisation commentée suit la même structure : **contexte**, **ce qui a été produit**,
+**outils et méthodes**, **vérifications**, **ce que la réalisation démontre**, puis
+**limites et pistes d'amélioration**.
+
+## Réalisations commentées
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-realisation}
+#### 1 · Trace du portfolio individuel
+*Origine : portfolio GitHub individuel (STT-6230)*
+
+Version publique résumée d'une trace du portfolio, qui reste un dépôt privé.
+
+[Lire la fiche →](realisations/portfolio-individuel.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-realisation}
+#### 2 · Tutoriel sur l'ACP en R
+*Origine : projet d'équipe (STT-6230)*
+
+Un tutoriel conçu en équipe pour apprendre à faire et à interpréter une analyse
+en composantes principales avec R.
+
+[Lire la fiche →](realisations/projet-equipe-acp.qmd)
+:::
+:::
+
+:::
+
+## Autres projets
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-realisation}
+#### Traitement automatique de la langue
+*Travaux 1 et 2*
+
+[Lire la fiche →](realisations/taln-travaux.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-realisation}
+#### Analyse de données
+*Stage au HCP (modèle ARDL), plans d'expériences, détection d'objets (RDD2022)*
+
+[Lire la fiche →](realisations/analyse-donnees.qmd)
+:::
+:::
+
+:::

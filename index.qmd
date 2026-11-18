@@ -1,0 +1,63 @@
+---
+title: "Fahd Keneth Ouattara"
+subtitle: "Étudiant à la maîtrise en statistique · Université Laval, Québec"
+toc: false
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: "https://github.com/kenethouattara"   
+    # Facultatif (les renseignements personnels ne sont pas obligatoires) :
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: "https://www.linkedin.com/in/VOTRE-PROFIL"
+---
+
+## À propos
+
+Je suis étudiant à la maîtrise en statistique à l'Université Laval, après un cycle
+d'ingénieur en statistique et économie appliquée à l'INSEA (Rabat, Maroc). Je m'intéresse à
+l'**analyse de données** et à la **statistique appliquée**, et surtout aux analyses
+**reproductibles** : un code lisible, des rapports qui se régénèrent à partir des sources
+et un historique de travail suivi avec Git.
+
+Ce site présente une sélection de travaux réalisés pendant la session d'automne 2026,
+principalement dans le cours **STT-6230 – R pour scientifique**.
+
+## En bref
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Statistique
+Réduction de dimension (ACP), planification d'expériences, analyse exploratoire.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Programmation
+R (tidyverse : `dplyr`, `ggplot2`), Quarto, Git et GitHub.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Apprentissage automatique
+Traitement automatique de la langue, détection d'objets sur images.
+:::
+
+:::
+
+## Réalisations commentées
+
+| | Réalisation | Origine |
+|---|---|---|
+| 1 | [Trace du portfolio individuel](realisations/portfolio-individuel.qmd) | Portfolio GitHub individuel |
+| 2 | [Tutoriel sur l'ACP en R](realisations/projet-equipe-acp.qmd) | Projet d'équipe |
+
+[Voir toutes les réalisations →](realisations.qmd){.btn .btn-primary}
+
+## À propos de ce site
+
+Ce site est écrit en Quarto (fichiers `.qmd`). Il est rendu en HTML dans le dossier
+`docs/` et publié avec GitHub Pages.
+Les choix techniques sont décrits dans la page
+[Réflexion](reflexion.qmd).

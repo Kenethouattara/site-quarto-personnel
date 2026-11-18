@@ -1,0 +1,54 @@
+---
+title: "Travaux 1 et 2 : traitement automatique de la langue naturelle"
+subtitle: "Autre projet · travaux pratiques de cours"
+---
+
+<!-- Cette page sert de gabarit : les crochets [ ] sont à remplacer par le contenu réel
+de tes travaux avant la publication. -->
+
+## Contexte
+
+Dans le cours **[sigle et titre du cours]**, j'ai réalisé deux travaux pratiques en
+**traitement automatique de la langue naturelle (TALN)**. Le TALN regroupe les méthodes qui
+permettent à un ordinateur d'analyser du texte : nettoyer, découper, représenter
+numériquement, puis classer ou modéliser.
+
+## Travail 1 : [titre]
+
+**Objectif** : [ce que le travail demandait, p. ex. prétraitement et analyse exploratoire d'un corpus]
+
+**Données** : [corpus utilisé, taille, langue]
+
+**Démarche** :
+
+1. [Prétraitement : tokenisation, minuscules, retrait des mots vides, lemmatisation…]
+2. [Représentation : sac de mots, TF-IDF, plongements…]
+3. [Analyse ou modèle appliqué]
+
+**Ce qui a été remis** : [rapport, notebook, code, résultats]
+
+**Résultat principal** : [chiffre clé ou conclusion]
+
+## Travail 2 : [titre]
+
+**Objectif** : [ce que le travail demandait, p. ex. classification de textes]
+
+**Données** : [corpus utilisé]
+
+**Démarche** :
+
+1. [Étape 1]
+2. [Étape 2]
+3. [Évaluation : métriques utilisées, comparaison de modèles]
+
+**Ce qui a été remis** : [rapport, notebook, code, résultats]
+
+**Résultat principal** : [chiffre clé ou conclusion]
+
+## Ce que j'en retiens
+
+[Une ou deux phrases sur ce que ces travaux t'ont appris.]
+
+## Outils
+
+[Langage et bibliothèques utilisés, p. ex. Python (NLTK, spaCy, scikit-learn) ou R (tidytext, quanteda)]
